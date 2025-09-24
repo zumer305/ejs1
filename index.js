@@ -1,5 +1,6 @@
 // npm init -y     (package json) 
-// npm i express      (node modules) 
+// npm i express      (node modules)
+ 
 // npm i ejs            (ejs install) 
 // touch index.js           (index.js file)
 
