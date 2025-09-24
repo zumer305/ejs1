@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- ejs syntax to print java script -->
-    <h1>This page belongs to @<%= username %></h1> 
+    <h1>This page belongs to @<%= username %></h1>
     <button>Follow</button>
     <button>Message</button>
 
-
     <h3>Name of followers</h3>
     <ul>
-         <% for(name of follower){ %>
-            <li><%=name%></li>
-         <% } %>
+      <!-- loops syntax  -->
+      <% for(name of follower){ %>
+      <!-- output syntax  -->
+      <li><%=name%></li>
+      <% } %>
     </ul>
-</body>
+  </body>
 </html>
