@@ -1,6 +1,6 @@
 // npm init -y     (package json) 
 // npm i express      (node modules)
- 
+
 // npm i ejs            (ejs install) 
 // touch index.js           (index.js file)
 
@@ -55,7 +55,8 @@ app.get("/roler",(req,res)=>{
 // ----------------------------------------------------------------------
 // Instagram activity
 app.get("/ig/:username",(req,res)=>{
+    const follower=["zumer","niaz","hussain"];
     let {username}= req.params;
-res.render("insta.ejs",{username});
+res.render("insta.ejs",{username,follower});
 })
 // ----------------------------------------------------------------------
